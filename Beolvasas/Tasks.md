@@ -60,6 +60,7 @@ bool sikeres = TryParse(string s, culture, out int result);
 
 - [ ] A beolvasott és átalakított adatokat tároljuk el egy `List<Bolygo>` típusú listában
 - [ ] A `Bolygo` osztályt a következõ tulajdonságokkal hozd létre:
+
 ```csharp
 public class Bolygo {
 	public int BolygoId { get; set; }
