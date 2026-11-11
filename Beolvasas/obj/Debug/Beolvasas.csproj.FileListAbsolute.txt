@@ -1,0 +1,7 @@
+C:\Users\ellaro093\git\amf\beolvasas\obj\Debug\Beolvasas.csproj.AssemblyReference.cache
+C:\Users\ellaro093\git\amf\beolvasas\obj\Debug\Beolvasas.csproj.CoreCompileInputs.cache
+C:\Users\ellaro093\git\amf\beolvasas\bin\Debug\Beolvasas.exe.config
+C:\Users\ellaro093\git\amf\beolvasas\bin\Debug\Beolvasas.exe
+C:\Users\ellaro093\git\amf\beolvasas\bin\Debug\Beolvasas.pdb
+C:\Users\ellaro093\git\amf\beolvasas\obj\Debug\Beolvasas.exe
+C:\Users\ellaro093\git\amf\beolvasas\obj\Debug\Beolvasas.pdb

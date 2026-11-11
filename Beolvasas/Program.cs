@@ -13,6 +13,8 @@ namespace Beolvasas
     {
         static void Main(string[] args)
         {
+            List<Bolygo> bolygok = new List<Bolygo>();
+
             string exePath = Assembly.GetExecutingAssembly().Location;
             string exeDir = Path.GetDirectoryName(exePath);
             string csvFilePath = Path.Combine(exeDir, "Preferences", "naprendszer.csv");
@@ -25,7 +27,8 @@ namespace Beolvasas
 
             var culture = CultureInfo.InvariantCulture;
 
-            string[] datas = File.ReadAllLines(csvFilePath).Skip(1).ToArray();
+            string[] datas = File.ReadAllLines(csvFilePath)
+                                 .ToArray();
             // verzió 1
             foreach (string data in datas)
             {
@@ -43,23 +46,16 @@ namespace Beolvasas
                 }
 
             }
-            // verzió 2
-            //for (int i = 1; i < datas.Length; i++)
-            //{
-            //    string data = datas[i];
-            //}
-            for (int i = 1; i < sorok.Length; i++)
-            {
-                string sor = sorok[i];
 
-                // Üres sorok kihagyása
+            for (int i = 1; i < datas.Length; i++)
+            {
+                string sor = datas[i];
+
                 if (string.IsNullOrWhiteSpace(sor))
                     continue;
 
-                // Sor feldarabolása pontosvessző mentén
                 string[] adatok = sor.Split(';');
 
-                // Ellenőrizzük az oszlopok számát
                 if (adatok.Length != 10)
                 {
                     Console.WriteLine(
@@ -68,17 +64,23 @@ namespace Beolvasas
                     continue;
                 }
 
-                // Adatok konvertálása
-                bool sikeres =
-                    int.TryParse(adatok[0], NumberStyles.Number, culture, out int bolygoId) &&
-                    int.TryParse(adatok[2], NumberStyles.Number, culture, out int tipusId) &&
-                    decimal.TryParse(adatok[3], NumberStyles.Number, culture, out decimal tomeg) &&
-                    decimal.TryParse(adatok[4], NumberStyles.Number, culture, out decimal egyenlitoSugar) &&
-                    int.TryParse(adatok[5], NumberStyles.Number, culture, out int holdakSzama) &&
-                    decimal.TryParse(adatok[6], NumberStyles.Number, culture, out decimal napTavolsag) &&
-                    decimal.TryParse(adatok[7], NumberStyles.Number, culture, out decimal foldTavolsag);
+                int bolygoId = 0;
+                int tipusId = 0;
+                decimal tomeg = 0;
+                decimal egyenlitoSugar = 0;
+                int holdakSzama = 0;
+                decimal napTavolsag = 0;
+                decimal foldTavolsag = 0;
 
-                // Ha valamelyik konvertálás sikertelen
+                bool sikeres =
+                    int.TryParse(adatok[0], NumberStyles.Number, culture, out bolygoId) &&
+                    int.TryParse(adatok[2], NumberStyles.Number, culture, out tipusId) &&
+                    decimal.TryParse(adatok[3], NumberStyles.Number, culture, out tomeg) &&
+                    decimal.TryParse(adatok[4], NumberStyles.Number, culture, out egyenlitoSugar) &&
+                    int.TryParse(adatok[5], NumberStyles.Number, culture, out holdakSzama) &&
+                    decimal.TryParse(adatok[6], NumberStyles.Number, culture, out napTavolsag) &&
+                    decimal.TryParse(adatok[7], NumberStyles.Number, culture, out foldTavolsag);
+
                 if (!sikeres)
                 {
                     Console.WriteLine(
@@ -87,7 +89,6 @@ namespace Beolvasas
                     continue;
                 }
 
-                // Bolygo objektum létrehozása
                 Bolygo bolygo = new Bolygo()
                 {
                     BolygoId = bolygoId,
@@ -95,7 +96,7 @@ namespace Beolvasas
                     TipusId = tipusId,
                     Tomeg = tomeg,
                     EgyenlitoSugar = egyenlitoSugar,
-                    Holdakszama = holdakSzama,
+                    HoldakSzama = holdakSzama,
                     NapTavolsag = napTavolsag,
                     FoldTavolsag = foldTavolsag,
                     Leiras = adatok[8],
