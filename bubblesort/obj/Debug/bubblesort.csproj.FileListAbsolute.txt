@@ -1,0 +1,7 @@
+C:\Users\ellaro093\git\amf\bubblesort\bin\Debug\bubblesort.exe.config
+C:\Users\ellaro093\git\amf\bubblesort\bin\Debug\bubblesort.exe
+C:\Users\ellaro093\git\amf\bubblesort\bin\Debug\bubblesort.pdb
+C:\Users\ellaro093\git\amf\bubblesort\obj\Debug\bubblesort.csproj.AssemblyReference.cache
+C:\Users\ellaro093\git\amf\bubblesort\obj\Debug\bubblesort.csproj.CoreCompileInputs.cache
+C:\Users\ellaro093\git\amf\bubblesort\obj\Debug\bubblesort.exe
+C:\Users\ellaro093\git\amf\bubblesort\obj\Debug\bubblesort.pdb
