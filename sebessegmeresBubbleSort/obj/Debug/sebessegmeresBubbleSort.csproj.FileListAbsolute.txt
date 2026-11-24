@@ -1,0 +1,7 @@
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\bin\Debug\sebessegmeresBubbleSort.exe.config
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\bin\Debug\sebessegmeresBubbleSort.exe
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\bin\Debug\sebessegmeresBubbleSort.pdb
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\obj\Debug\sebessegmeresBubbleSort.csproj.AssemblyReference.cache
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\obj\Debug\sebessegmeresBubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\obj\Debug\sebessegmeresBubbleSort.exe
+C:\Users\ellaro093\git\amf\sebessegmeresBubbleSort\obj\Debug\sebessegmeresBubbleSort.pdb

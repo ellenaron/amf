@@ -1,0 +1,15 @@
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\bin\Debug\PV_Wpf_Command_1.exe.config
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\bin\Debug\PV_Wpf_Command_1.exe
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\bin\Debug\PV_Wpf_Command_1.pdb
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.csproj.AssemblyReference.cache
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\MainWindow.g.cs
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\App.g.cs
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1_MarkupCompile.cache
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1_MarkupCompile.lref
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\MainWindow.baml
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.g.resources
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.Properties.Resources.resources
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.csproj.GenerateResource.cache
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.csproj.CoreCompileInputs.cache
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.exe
+C:\Users\ellaro093\git\amf\PV_Wpf_Command_1\PV_Wpf_Command_1\obj\Debug\PV_Wpf_Command_1.pdb

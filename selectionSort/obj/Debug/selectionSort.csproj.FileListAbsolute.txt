@@ -1,0 +1,7 @@
+C:\Users\ellaro093\git\amf\selectionSort\bin\Debug\selectionSort.exe.config
+C:\Users\ellaro093\git\amf\selectionSort\bin\Debug\selectionSort.exe
+C:\Users\ellaro093\git\amf\selectionSort\bin\Debug\selectionSort.pdb
+C:\Users\ellaro093\git\amf\selectionSort\obj\Debug\selectionSort.csproj.AssemblyReference.cache
+C:\Users\ellaro093\git\amf\selectionSort\obj\Debug\selectionSort.csproj.CoreCompileInputs.cache
+C:\Users\ellaro093\git\amf\selectionSort\obj\Debug\selectionSort.exe
+C:\Users\ellaro093\git\amf\selectionSort\obj\Debug\selectionSort.pdb
