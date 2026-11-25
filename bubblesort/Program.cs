@@ -63,6 +63,7 @@ namespace bubblesort
             }
 
             Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

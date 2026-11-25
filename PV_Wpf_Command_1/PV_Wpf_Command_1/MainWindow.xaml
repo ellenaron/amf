@@ -34,10 +34,11 @@
                    VerticalContentAlignment="Center"
                    FontSize="20"/>
             <TextBox VerticalAlignment="Stretch"
-                       HorizontalAlignment="Stretch"
-                       Margin="10"
-                       FontSize="20"
-                       Grid.Column="1"/>
+                     HorizontalAlignment="Stretch"
+                     Margin="10"
+                     FontSize="20"
+                     Grid.Column="1"
+                     Text="{Binding Host}"/>
             <Label Content="User:"
                    VerticalAlignment="Stretch"
                    HorizontalAlignment="Stretch"
@@ -51,7 +52,8 @@
                      Margin="10"
                      FontSize="20"
                      Grid.Column="1"
-                     Grid.Row="1"/>
+                     Grid.Row="1"
+                     Text="{Binding User}"/>
             <Label Content="Password:"
                    VerticalAlignment="Stretch"
                    HorizontalAlignment="Stretch"
@@ -65,7 +67,8 @@
                      Margin="10"
                      FontSize="20"
                      Grid.Column="1"
-                     Grid.Row="2"/>
+                     Grid.Row="2"
+                     Text="{Binding Password}"/>
             <Label Content="Database:"
                    VerticalAlignment="Stretch"
                    HorizontalAlignment="Stretch"
@@ -79,7 +82,8 @@
                      Margin="10"
                      FontSize="20"
                      Grid.Column="1"
-                     Grid.Row="3"/>
+                     Grid.Row="3"
+                     Text="{Binding Database}"/>
             <Label Content="Port:"
                    VerticalAlignment="Stretch"
                    HorizontalAlignment="Stretch"
@@ -93,14 +97,20 @@
                      Margin="10"
                      FontSize="20"
                      Grid.Column="1"
-                     Grid.Row="4"/>
+                     Grid.Row="4"
+                     Text="{Binding Port}"/>
             <Button VerticalAlignment="Center"
                     HorizontalAlignment="Center"
-                    Grid.ColumnSpan="2"
                     FontSize="20"
                     Grid.Row="5"
                     Content="Kapcsolat"
                     Padding="10"/>
+            <Label Content="{Binding Message}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="20"
+                   Grid.Column="1"
+                   Grid.Row="5"/>
         </Grid>
     </DockPanel>
 </Window>
